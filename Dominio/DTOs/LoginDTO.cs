@@ -1,5 +1,5 @@
 
-namespace MinimalApi.DTOs;
+namespace MinimalApi.Dominio.DTOs;
 // CLASS PARA RECEBER DADOS DO LOGIN
 public class LoginDTO
 {

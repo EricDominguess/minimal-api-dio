@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MinimalApi.Dominio.Entidades;
-using MinimalApi.DTOs;
+using MinimalApi.Dominio.DTOs;
 
 namespace MinimalApi.Dominio.Interfaces
 {
