@@ -24,8 +24,6 @@ public class AdministradorServicoMock : IAdministradorServico
     }
   };
 
-
-
   public Administrador? BuscarPorId(int id)
   {
     return administradores.Find(a => a.Id == id);

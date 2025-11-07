@@ -30,7 +30,7 @@ public class VeiculosServicoTest
   }
 
   [TestMethod]
-  public void TestandoSalvarAdministrador()
+  public void TestandoSalvarVeiculo()
   {
     // Arrange (todas as variaveis que a gente for usar)
     var context = CriarContextoDeTeste();

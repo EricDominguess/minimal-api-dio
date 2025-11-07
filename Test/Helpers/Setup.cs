@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Testing;
@@ -28,8 +30,25 @@ public class Setup
 
       builder.ConfigureServices(services =>
       {
+        // Fake auth for tests: autentica sempre como perfil Adm
+        services.AddAuthentication(options =>
+        {
+          options.DefaultAuthenticateScheme = "TestAuth";
+          options.DefaultChallengeScheme = "TestAuth";
+        })
+        .AddScheme<AuthenticationSchemeOptions, TestAuthHandler>("TestAuth", options => { });
+
+        services.AddAuthorization(options =>
+        {
+          // Política fallback exige usuário autenticado pelo esquema de teste
+          options.FallbackPolicy = new AuthorizationPolicyBuilder()
+            .AddAuthenticationSchemes("TestAuth")
+            .RequireAuthenticatedUser()
+            .Build();
+        });
 
         services.AddScoped<IAdministradorServico, AdministradorServicoMock>();
+        services.AddScoped<IVeiculoServico, VeiculoServicoMock>();
       });
     });
 
