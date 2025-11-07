@@ -70,8 +70,7 @@ public class AdministradorServicoTest
     var admBanco = administradorServico.BuscarPorId(adm.Id);
 
     // Assert (Fazer a validação da estrutura)
-    Assert.IsNotNull(admBanco);
-    Assert.AreEqual(1, admBanco.Id);
+    Assert.AreEqual(1, admBanco?.Id);
    
   }
 }
