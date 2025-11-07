@@ -7,8 +7,6 @@ C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\min
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\minimal-api.staticwebassets.endpoints.json
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\minimal-api.exe
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\testhost.exe
-C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
-C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\Microsoft.TestPlatform.AdapterUtilities.dll
@@ -203,3 +201,5 @@ C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\min
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\obj\Debug\net9.0\Test.pdb
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\obj\Debug\net9.0\Test.genruntimeconfig.cache
 C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\obj\Debug\net9.0\ref\Test.dll
+C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\eric2\Documents\codes\bootcamp\codigos_e_projetos\dotnet\ProjetoAPI\minimal-api\Test\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
